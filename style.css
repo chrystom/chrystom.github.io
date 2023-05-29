@@ -39,3 +39,10 @@
   color: #fb00ff;
 }
 
+img {
+  padding: 5px;
+}
+
+img:hover {
+  
+}
