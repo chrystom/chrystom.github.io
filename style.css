@@ -9,7 +9,8 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  width: 260px;
+  /* CHANGE THIS ONCE YOU ADD ITEMS
+  * width: 20px; */
   background-color: #383333;
   overflow: hidden;
   border-radius: 15px;
@@ -41,8 +42,4 @@
 
 img {
   padding: 5px;
-}
-
-img:hover {
-  
 }
