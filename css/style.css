@@ -43,3 +43,9 @@
 img {
   padding: 5px;
 }
+
+#folder.single-clicked {
+  /* padding: 15px; */
+  background-color: #078211;
+  border-radius: 15px;
+}
