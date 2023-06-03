@@ -1,5 +1,5 @@
 // NOTE: below comment is now obsolete since I actually decided to program
-//actual programming? imagine. mark-up languages are the only languages i speak.
+// actual programming? imagine. mark-up languages are the only languages i speak.
 
 let folder = document.querySelector("#folder");
 let fldHighlight = false;
