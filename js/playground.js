@@ -6,7 +6,7 @@ let fldHighlight = false;
 
 // maybe some folder functionality in the near future???
 folder.addEventListener("click", () => {
-    console.log("clicked");
+    folder.classList.remove("folder-hover");
     if (fldHighlight) {
         folder.classList.remove("single-clicked");
         fldHighlight = false;
@@ -14,6 +14,15 @@ folder.addEventListener("click", () => {
         folder.classList.add("single-clicked");
         fldHighlight = true;
     }
+});
+
+folder.addEventListener("mouseover", () => {
+    !fldHighlight && folder.classList.add("folder-hover");
+});
+
+folder.addEventListener("mouseout", () => {
+    folder.classList.remove("folder-hover");
+    fldHighlight && folder.classList.add("single-clicked");
 });
 
 // folder.addEventListener("dblclick", (event) => {

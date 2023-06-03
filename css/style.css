@@ -49,3 +49,8 @@ img {
   background-color: #078211;
   border-radius: 15px;
 }
+#folder.folder-hover {
+  /* padding: 15px; */
+  background-color: rgba(7, 130, 17, .5);
+  border-radius: 15px;
+}
